@@ -1,0 +1,26 @@
+# Secrets
+.env
+*.pem
+*.p8
+
+# Python
+.venv/
+__pycache__/
+
+# Données (on versionne le code, jamais les données)
+data/
+*.csv
+*.7z
+
+# dbt
+dbt/**/target/
+dbt/**/logs/
+dbt/**/dbt_packages/
+dbt/**/.user.yml
+
+# Airflow
+airflow/logs/
+
+# OS / IDE
+.DS_Store
+.vscode/
